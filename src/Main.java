@@ -3,6 +3,7 @@ import Arrays.GroupAnagrams;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import TwoPointers.ContainsMostWater;
+import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSumTwo;
 import TwoPointers.ValidPalindrome;
 
@@ -32,5 +33,9 @@ public class Main {
         ContainsMostWater container = new ContainsMostWater();
         int[] heights = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println(container.containerWithMostWater(heights));
+
+        TrappingRainWater rainWater = new TrappingRainWater();
+        int[] rainWater2 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.out.println(rainWater.rainWater(rainWater2));
     }
 }
