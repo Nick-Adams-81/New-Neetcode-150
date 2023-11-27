@@ -2,6 +2,7 @@ import Arrays.ContainsDuplicate;
 import Arrays.GroupAnagrams;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
+import TwoPointers.TwoSumTwo;
 import TwoPointers.ValidPalindrome;
 
 public class Main {
@@ -23,5 +24,8 @@ public class Main {
 
         ValidPalindrome palindrome = new ValidPalindrome();
         System.out.println(palindrome.palindrome("A man, a Plan! A Canal: PANAMA!"));
+
+        TwoSumTwo twoSum2 = new TwoSumTwo();
+        System.out.println(twoSum2.twoSum(sums, 13));
     }
 }
