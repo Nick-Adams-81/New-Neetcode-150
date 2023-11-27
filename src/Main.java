@@ -4,6 +4,7 @@ import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacter;
+import SlidingWindow.PermutationInString;
 import TwoPointers.ContainsMostWater;
 import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSumTwo;
@@ -46,5 +47,8 @@ public class Main {
 
         LongestSubstringWithoutRepeatingCharacter repeatingChars = new LongestSubstringWithoutRepeatingCharacter();
         System.out.println(repeatingChars.lengthOfSubstring("abcabcbb"));
+
+        PermutationInString permutation = new PermutationInString();
+        System.out.println(permutation.checkInclusion("ab", "eidbaooo"));
     }
 }
