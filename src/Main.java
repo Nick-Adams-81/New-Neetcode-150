@@ -3,6 +3,7 @@ import Arrays.GroupAnagrams;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
+import SlidingWindow.LongestSubstringWithoutRepeatingCharacter;
 import TwoPointers.ContainsMostWater;
 import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSumTwo;
@@ -42,5 +43,8 @@ public class Main {
         BuyAndSellStock stock = new BuyAndSellStock();
         int[] prices = {7, 1, 5, 3, 6, 4};
         System.out.println(stock.profit(prices));
+
+        LongestSubstringWithoutRepeatingCharacter repeatingChars = new LongestSubstringWithoutRepeatingCharacter();
+        System.out.println(repeatingChars.lengthOfSubstring("abcabcbb"));
     }
 }
