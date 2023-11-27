@@ -5,6 +5,7 @@ import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacter;
 import SlidingWindow.PermutationInString;
+import Stack.ValidParens;
 import TwoPointers.ContainsMostWater;
 import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSumTwo;
@@ -50,5 +51,8 @@ public class Main {
 
         PermutationInString permutation = new PermutationInString();
         System.out.println(permutation.checkInclusion("ab", "eidbaooo"));
+
+        ValidParens parens = new ValidParens();
+        System.out.println(parens.validParens("[]{}"));
     }
 }
