@@ -2,6 +2,7 @@ import Arrays.ContainsDuplicate;
 import Arrays.GroupAnagrams;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
+import TwoPointers.ValidPalindrome;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +20,8 @@ public class Main {
         GroupAnagrams anagrams = new GroupAnagrams();
         String[] strings = {"eat", "tea", "ate", "nat", "bat"};
         System.out.println(anagrams.groupAnagrams(strings));
+
+        ValidPalindrome palindrome = new ValidPalindrome();
+        System.out.println(palindrome.palindrome("A man, a Plan! A Canal: PANAMA!"));
     }
 }
