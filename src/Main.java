@@ -2,6 +2,7 @@ import Arrays.ContainsDuplicate;
 import Arrays.GroupAnagrams;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
+import TwoPointers.ContainsMostWater;
 import TwoPointers.TwoSumTwo;
 import TwoPointers.ValidPalindrome;
 
@@ -27,5 +28,9 @@ public class Main {
 
         TwoSumTwo twoSum2 = new TwoSumTwo();
         System.out.println(twoSum2.twoSum(sums, 13));
+
+        ContainsMostWater container = new ContainsMostWater();
+        int[] heights = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println(container.containerWithMostWater(heights));
     }
 }
