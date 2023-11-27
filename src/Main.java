@@ -2,6 +2,7 @@ import Arrays.ContainsDuplicate;
 import Arrays.GroupAnagrams;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
+import SlidingWindow.BuyAndSellStock;
 import TwoPointers.ContainsMostWater;
 import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSumTwo;
@@ -37,5 +38,9 @@ public class Main {
         TrappingRainWater rainWater = new TrappingRainWater();
         int[] rainWater2 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         System.out.println(rainWater.rainWater(rainWater2));
+
+        BuyAndSellStock stock = new BuyAndSellStock();
+        int[] prices = {7, 1, 5, 3, 6, 4};
+        System.out.println(stock.profit(prices));
     }
 }
