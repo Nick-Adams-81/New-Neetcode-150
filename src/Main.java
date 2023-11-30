@@ -5,6 +5,7 @@ import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacter;
 import SlidingWindow.PermutationInString;
+import Stack.EvaluateReversePolishNotation;
 import Stack.ValidParens;
 import TwoPointers.ContainsMostWater;
 import TwoPointers.TrappingRainWater;
@@ -54,5 +55,9 @@ public class Main {
 
         ValidParens parens = new ValidParens();
         System.out.println(parens.validParens("[]{}"));
+
+        EvaluateReversePolishNotation notation = new EvaluateReversePolishNotation();
+        String[] tokens = {"2", "1", "+", "3", "*"};
+        System.out.println(notation.evalRPN(tokens));
     }
 }
